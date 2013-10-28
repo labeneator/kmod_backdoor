@@ -42,7 +42,7 @@ int init_module(void) {
     return 0;
 }
 
-int destroy_modul(void) {
+int destroy_module(void) {
     flush_workqueue(my_wq);
     destroy_workqueue(my_wq);
 }
